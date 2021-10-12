@@ -1,3 +1,0 @@
-dotenv for environment 
-
-for hashing we will use-- bcrypt js

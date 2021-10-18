@@ -21,7 +21,7 @@ async function authenticate(req, res, next) {
     //step2-if yes extract user from token ,if user not found throw error
     //else attach user to req,return next
     const { user } = await verifyToken(token);
-    console.log(user);
+
     req.user = user;
     return next();
   } catch (err) {

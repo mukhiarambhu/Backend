@@ -1,3 +1,6 @@
 dotenv for environment 
 
 for hashing we will use-- bcrypt js
+
+jwt for token ;
+ passport-http-bearer for oauth and authorization  for  passport-http-bearer  to work we need to install passport as well
